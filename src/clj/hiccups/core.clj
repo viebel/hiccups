@@ -3,7 +3,7 @@
    Pre-compiles where possible for performance.
    Core macros and their (Clojure) helper functions."
   (:require [hiccups.runtime :as rt])
-  (:import [clojure.lang IPersistentVector ISeq]))
+  #_(:import [clojure.lang IPersistentVector ISeq]))
 
 (def doctype
   {:html4
